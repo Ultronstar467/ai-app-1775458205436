@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Properties | Dream Dwellings</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="container">
+            <h1 class="logo"><a href="index.html">Dream Dwellings</a></h1>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="properties.html" class="active">Properties</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <main class="properties-page">
+        <section class="hero-section hero-small">
+            <div class="container">
+                <h2>Our Listings</h2>
+                <p>Browse through our extensive collection of properties.</p>
+            </div>
+        </section>
+
+        <div class="container property-listing-grid">
+            <aside class="sidebar-filters">
+                <h3>Filter Properties</h3>
+                <form id="property-filters">
+                    <div class="filter-group">
+                        <label for="location">Location</label>
+                        <input type="text" id="location" placeholder="e.g., Miami, New York">
+                    </div>
+                    <div class="filter-group">
+                        <label for="property-type">Property Type</label>
+                        <select id="property-type">
+                            <option value="">All</option>
+                            <option value="villa">Villa</option>
+                            <option value="apartment">Apartment</option>
+                            <option value="house">House</option>
+                            <option value="condo">Condo</option>
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <label for="min-price">Min Price ($)</label>
+                        <input type="number" id="min-price" min="0" value="0">
+                    </div>
+                    <div class="filter-group">
+                        <label for="max-price">Max Price ($)</label>
+                        <input type="number" id="max-price" min="0" value="5000000">
+                    </div>
+                    <div class="filter-group">
+                        <label for="beds">Beds</label>
+                        <input type="number" id="beds" min="1" value="1">
+                    </div>
+                    <div class="filter-group">
+                        <label for="baths">Baths</label>
+                        <input type="number" id="baths" min="1" value="1">
+                    </div>
+                    <button type="submit" class="btn btn-primary filter-button">Apply Filters</button>
+                    <button type="reset" class="btn btn-secondary clear-filters-button">Clear Filters</button>
+                </form>
+            </aside>
+
+            <section class="all-properties-list">
+                <div class="property-grid" id="properties-container">
+                    <!-- Property cards will be injected here by JavaScript -->
+                </div>
+                <div class="pagination">
+                    <a href="#" class="btn btn-secondary disabled">Previous</a>
+                    <a href="#" class="btn btn-primary">1</a>
+                    <a href="#" class="btn btn-secondary">2</a>
+                    <a href="#" class="btn btn-secondary">3</a>
+                    <a href="#" class="btn btn-secondary">Next</a>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>Dream Dwellings</h4>
+                    <p>Your trusted partner in finding the perfect home.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="properties.html">Properties</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="#">About Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact Info</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Realty Street, City, State 12345</p>
+                    <p><i class="fas fa-phone"></i> (123) 456-7890</p>
+                    <p><i class="fas fa-envelope"></i> info@dreamdwellings.com</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                &copy; 2023 Dream Dwellings. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
