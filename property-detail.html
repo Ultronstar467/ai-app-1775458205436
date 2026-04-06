@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Property Detail | Dream Dwellings</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="container">
+            <h1 class="logo"><a href="index.html">Dream Dwellings</a></h1>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="properties.html" class="active">Properties</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <main class="property-detail-page">
+        <div class="container">
+            <section class="property-gallery">
+                <div class="main-image">
+                    <img id="main-property-image" src="https://via.placeholder.com/900x600/6A82FB/FFFFFF?text=Luxury+Property" alt="Main Property Image">
+                </div>
+                <div class="thumbnail-images" id="thumbnail-gallery">
+                    <img src="https://via.placeholder.com/150x100/6A82FB/FFFFFF?text=Image+1" alt="Property Thumbnail 1" class="active">
+                    <img src="https://via.placeholder.com/150x100/FF6B6B/FFFFFF?text=Image+2" alt="Property Thumbnail 2">
+                    <img src="https://via.placeholder.com/150x100/2ECC71/FFFFFF?text=Image+3" alt="Property Thumbnail 3">
+                    <img src="https://via.placeholder.com/150x100/FFC300/FFFFFF?text=Image+4" alt="Property Thumbnail 4">
+                </div>
+            </section>
+
+            <section class="property-info-grid">
+                <div class="property-details-main">
+                    <h2 id="property-title">Luxury Villa with Ocean View</h2>
+                    <p class="location-detail"><i class="fas fa-map-marker-alt"></i> <span id="property-location">Miami, Florida</span></p>
+                    <p class="price-detail" id="property-price">$1,850,000</p>
+
+                    <div class="features-detail">
+                        <span><i class="fas fa-bed"></i> <span id="property-beds">4</span> Beds</span>
+                        <span><i class="fas fa-bath"></i> <span id="property-baths">3</span> Baths</span>
+                        <span><i class="fas fa-ruler-combined"></i> <span id="property-sqft">3200</span> SqFt</span>
+                        <span><i class="fas fa-car"></i> <span id="property-garage">2</span> Garage</span>
+                    </div>
+
+                    <h3>Description</h3>
+                    <p id="property-description">
+                        This stunning luxury villa offers breathtaking ocean views and unparalleled elegance.
+                        Located in the prestigious area of Miami, it features spacious interiors, high ceilings,
+                        and state-of-the-art amenities. Enjoy a private pool, a gourmet kitchen, and beautifully
+                        landscaped gardens. Perfect for those seeking an exclusive and serene lifestyle.
+                    </p>
+
+                    <h3>Amenities</h3>
+                    <ul class="amenities-list">
+                        <li><i class="fas fa-swimming-pool"></i> Private Pool</li>
+                        <li><i class="fas fa-fan"></i> Air Conditioning</li>
+                        <li><i class="fas fa-utensils"></i> Modern Kitchen</li>
+                        <li><i class="fas fa-wifi"></i> High-Speed Internet</li>
+                        <li><i class="fas fa-parking"></i> Parking Space</li>
+                        <li><i class="fas fa-camera"></i> Security System</li>
+                        <li><i class="fas fa-sun"></i> Balcony/Patio</li>
+                    </ul>
+                </div>
+
+                <aside class="agent-contact-sidebar">
+                    <div class="agent-card">
+                        <h4>Contact Agent</h4>
+                        <img src="https://via.placeholder.com/100x100/9C27B0/FFFFFF?text=Agent" alt="Agent Photo" class="agent-photo">
+                        <p class="agent-name">Sarah Green</p>
+                        <p class="agent-title">Lead Agent</p>
+                        <p><i class="fas fa-phone-alt"></i> (123) 987-6543</p>
+                        <p><i class="fas fa-envelope"></i> sarah.green@dreamdwellings.com</p>
+                        <button class="btn btn-primary booking-button" id="book-tour-button">Book a Tour</button>
+                    </div>
+                </aside>
+            </section>
+        </div>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>Dream Dwellings</h4>
+                    <p>Your trusted partner in finding the perfect home.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="properties.html">Properties</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="#">About Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact Info</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Realty Street, City, State 12345</p>
+                    <p><i class="fas fa-phone"></i> (123) 456-7890</p>
+                    <p><i class="fas fa-envelope"></i> info@dreamdwellings.com</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                &copy; 2023 Dream Dwellings. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <!-- Booking Modal -->
+    <div id="booking-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h2>Book a Tour</h2>
+            <form id="booking-form">
+                <div class="form-group">
+                    <label for="tour-name">Name</label>
+                    <input type="text" id="tour-name" required>
+                </div>
+                <div class="form-group">
+                    <label for="tour-email">Email</label>
+                    <input type="email" id="tour-email" required>
+                </div>
+                <div class="form-group">
+                    <label for="tour-phone">Phone (Optional)</label>
+                    <input type="tel" id="tour-phone">
+                </div>
+                <div class="form-group">
+                    <label for="tour-date">Preferred Date</label>
+                    <input type="date" id="tour-date" required>
+                </div>
+                <div class="form-group">
+                    <label for="tour-time">Preferred Time</label>
+                    <input type="time" id="tour-time" required>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit Booking</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
