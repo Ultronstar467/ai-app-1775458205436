@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Dream Dwellings</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="container">
+            <h1 class="logo"><a href="index.html">Dream Dwellings</a></h1>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="properties.html">Properties</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero-section">
+            <div class="container">
+                <div class="hero-content">
+                    <h2>Find Your Perfect Home Today</h2>
+                    <p>Explore thousands of properties and discover your dream dwelling with ease.</p>
+                    <div class="search-bar">
+                        <input type="text" placeholder="Search by location, property type..." class="search-input">
+                        <button class="btn btn-primary search-button">Search</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="featured-properties-section container">
+            <h3>Featured Properties</h3>
+            <div class="property-grid">
+                <!-- Property cards will be injected here by JavaScript -->
+                <div class="property-card">
+                    <img src="https://via.placeholder.com/400x250/6A82FB/FFFFFF?text=Luxury+Villa" alt="Luxury Villa">
+                    <div class="card-content">
+                        <h4>Luxury Villa with Pool</h4>
+                        <p class="location"><i class="fas fa-map-marker-alt"></i> Miami, Florida</p>
+                        <p class="price">$1,850,000</p>
+                        <div class="features">
+                            <span><i class="fas fa-bed"></i> 4 Beds</span>
+                            <span><i class="fas fa-bath"></i> 3 Baths</span>
+                            <span><i class="fas fa-ruler-combined"></i> 3200 SqFt</span>
+                        </div>
+                        <a href="property-detail.html?id=1" class="btn btn-secondary">View Details</a>
+                    </div>
+                </div>
+                <div class="property-card">
+                    <img src="https://via.placeholder.com/400x250/FF6B6B/FFFFFF?text=Modern+Apartment" alt="Modern Apartment">
+                    <div class="card-content">
+                        <h4>Spacious City Apartment</h4>
+                        <p class="location"><i class="fas fa-map-marker-alt"></i> New York, NY</p>
+                        <p class="price">$750,000</p>
+                        <div class="features">
+                            <span><i class="fas fa-bed"></i> 2 Beds</span>
+                            <span><i class="fas fa-bath"></i> 2 Baths</span>
+                            <span><i class="fas fa-ruler-combined"></i> 1200 SqFt</span>
+                        </div>
+                        <a href="property-detail.html?id=2" class="btn btn-secondary">View Details</a>
+                    </div>
+                </div>
+                <div class="property-card">
+                    <img src="https://via.placeholder.com/400x250/2ECC71/FFFFFF?text=Cozy+Family+Home" alt="Cozy Family Home">
+                    <div class="card-content">
+                        <h4>Cozy Family Home</h4>
+                        <p class="location"><i class="fas fa-map-marker-alt"></i> Austin, Texas</p>
+                        <p class="price">$499,000</p>
+                        <div class="features">
+                            <span><i class="fas fa-bed"></i> 3 Beds</span>
+                            <span><i class="fas fa-bath"></i> 2 Baths</span>
+                            <span><i class="fas fa-ruler-combined"></i> 1800 SqFt</span>
+                        </div>
+                        <a href="property-detail.html?id=3" class="btn btn-secondary">View Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center">
+                <a href="properties.html" class="btn btn-primary view-all-btn">View All Properties</a>
+            </div>
+        </section>
+
+        <section class="call-to-action-section">
+            <div class="container">
+                <h2>Ready to Start Your Search?</h2>
+                <p>We're here to help you every step of the way.</p>
+                <a href="properties.html" class="btn btn-primary cta-button">Browse Properties</a>
+                <a href="contact.html" class="btn btn-secondary cta-button">Contact Us</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>Dream Dwellings</h4>
+                    <p>Your trusted partner in finding the perfect home.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="properties.html">Properties</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="#">About Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact Info</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Realty Street, City, State 12345</p>
+                    <p><i class="fas fa-phone"></i> (123) 456-7890</p>
+                    <p><i class="fas fa-envelope"></i> info@dreamdwellings.com</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                &copy; 2023 Dream Dwellings. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
